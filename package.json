@@ -3,7 +3,7 @@
     "build": "yarn build:css && next build && next export",
     "build:css": "postcss style/index.css -o style/bundle.css",
     "dev": "run-p dev:*",
-    "dev:next": "next --port 4000",
+    "dev:next": "next",
     "dev:postcss": "postcss style/index.css -o style/bundle.css -w"
   },
   "dependencies": {

@@ -7,7 +7,7 @@
     "dev:postcss": "postcss style/index.css -o style/bundle.css -w"
   },
   "dependencies": {
-    "next": "^9.3.6",
+    "next": "^11.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "tailwindcss": "^1.4.6"
